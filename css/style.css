@@ -1,0 +1,150 @@
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: #000;
+	max-width: 944px;
+	margin: 0 auto;
+	font-family: "Gilroy";
+	font-weight: 400;
+	min-width: 700px;
+}
+.header .nav {
+	border-bottom: 1px solid grey;
+	line-height: 3.3;
+}
+.header .nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+.header .nav li {
+	display: inline-block;
+	margin: 33px 0px 0px 0px;
+	font-size: 18px;
+	text-shadow: 8px 10px red;
+}
+.block-about_me {
+	margin: 0px 0px 104px 0px;
+}
+.block-about_mee__contact {
+	display: flex;
+	justify-content: space-between;
+}
+.block-about_mee__contact h2 {
+	font-size: 47px;
+	line-height: 59px;
+	color: #070707;
+	margin: 40px 0px 0px 0px;
+	font-family: "Gilroy";
+	font-weight: 500;
+	text-shadow: 0px 0px 15px blue;
+}
+.block-about_mee__contact p {
+	margin: 105px 0px 0px 0px;
+	font-size: 18px;
+	line-height: 22px;
+	text-shadow: 15px 10px 2px purple;
+}
+.block-about_mee__contact h6 {
+	margin: 105px 0px 0px 0px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #828282;
+	text-shadow: 1px 0px 3px green;
+}
+.block-about_mee__contact {
+	margin: 0px 0px 50px 0px;
+}
+.main .block-about_me img {
+	max-width: 100%;
+}
+.block-about_me__text {
+	text-align: center;
+	background-color: #ebe1e1;
+	margin: 0px 0px 91px 0px;
+}
+.block-about_me__text h2 {
+	font-size: 34px;
+	line-height: 42px;
+	padding: 120px 0px 0px 0px;
+	font-family: "Gilroy";
+	font-weight: 500;
+	text-shadow: 3px 10px 10px yellow;
+}
+.block-about_me__text p {
+	margin: 10px 0px 10px 0px;
+}
+.block-about_me__text p:last-child {
+	padding: 0px 0px 120px 0px;
+}
+.skills h2 {
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	font-family: "Gilroy";
+	font-weight: 500;
+	margin: 0px 0px 69px 0px;
+}
+.skills p {
+	text-align: center;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 0px 0px 83px 0px;
+}
+.block {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 0px 91px 0px;
+}
+.skills_icon {
+	text-align: center;
+}
+.skills_icon h6 {
+	padding: 24px 0px 0px 0px;
+	text-shadow: 0px 0px 6px rebeccapurple;
+}
